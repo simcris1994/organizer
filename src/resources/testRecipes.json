@@ -1,0 +1,12 @@
+{
+    "recipes": [
+        {
+            "url": "A",
+            "tags": ["chicken", "broccoli"]
+        },
+        {
+            "url": "B",
+            "tags": ["potato", "cheese"]
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 package com.recipes;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Recipes {
@@ -22,5 +23,14 @@ public class Recipes {
         }
         text.append("]");
         return text.toString();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Recipes) {
+            Recipes otherRecipes = (Recipes) obj;
+            return Arrays.equals(this.recipes.toArray(), otherRecipes.recipes.toArray());
+        }
+        return false;
     }
 }
