@@ -2,6 +2,7 @@ package com.recipes;
 
 import static org.junit.Assert.assertEquals;
 
+import com.recipes.model.Item;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.internal.util.collections.Sets;

@@ -1,4 +1,4 @@
-package com.recipes;
+package com.recipes.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,9 +12,7 @@ import java.util.stream.Collectors;
 public class UrlReader {
 
     public static List<String> read(String href) throws IOException {
-        URL url = new URL(href);
-
-        BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+        BufferedReader in = new BufferedReader(new InputStreamReader(new URL(href).openStream()));
         List<String> lines = new ArrayList<>();
 
         String line;
