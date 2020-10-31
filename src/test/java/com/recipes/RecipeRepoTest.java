@@ -26,7 +26,7 @@ public class RecipeRepoTest {
     @Test
     public void testRead() {
         InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("testRecipes.json");
-        when(fileLoader.getInputStream()).thenReturn(inputStream);
+        when(fileLoader.getRecipes()).thenReturn(inputStream);
 
         Item item1 = new Item("A", Sets.newSet("chicken", "broccoli"));
         Item item2 = new Item("B", Sets.newSet("potato", "cheese"));

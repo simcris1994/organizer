@@ -1,0 +1,69 @@
+{
+  "recipes": [
+    {
+      "url": "https://healthyfitnessmeals.com/lasagna-soup-recipe/",
+      "tags": [
+        "garlic",
+        "chicken",
+        "onion",
+        "pasta",
+        "beef",
+        "mozzarella",
+        "tomato",
+        "rice",
+        "cheese",
+        "parmesan"
+      ]
+    },
+    {
+      "url": "https://healthyfitnessmeals.com/shrimp-curry-recipe/",
+      "tags": [
+        "garlic",
+        "chicken",
+        "cauliflower",
+        "onion",
+        "beef",
+        "rice"
+      ]
+    },
+    {
+      "url": "https://healthyfitnessmeals.com/air-fryer-chicken-nuggets/",
+      "tags": [
+        "garlic",
+        "chicken",
+        "potato",
+        "onion",
+        "fish",
+        "beef",
+        "rice",
+        "cheese"
+      ]
+    },
+    {
+      "url": "https://healthyfitnessmeals.com/easy-beef-stir-fry/",
+      "tags": [
+        "mushrooms",
+        "garlic",
+        "chicken",
+        "onion",
+        "corn",
+        "beef",
+        "rice"
+      ]
+    },
+    {
+      "url": "https://healthyfitnessmeals.com/broccoli-chicken-pasta-casserole/",
+      "tags": [
+        "mushrooms",
+        "garlic",
+        "chicken",
+        "onion",
+        "pasta",
+        "broccoli",
+        "beef",
+        "rice",
+        "cheese"
+      ]
+    }
+  ]
+}

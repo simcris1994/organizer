@@ -1,10 +1,15 @@
 package com.recipes;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Recipes {
     private List<Item> recipes;
+
+    public Recipes() {
+        this.recipes = new ArrayList<>();
+    }
 
     public Recipes(List<Item> recipes) {
         this.recipes = recipes;
@@ -12,6 +17,10 @@ public class Recipes {
 
     public List<Item> getRecipes() {
         return recipes;
+    }
+
+    public void addRecipe(Item recipe) {
+        this.recipes.add(recipe);
     }
 
     @Override
