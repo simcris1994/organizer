@@ -5,6 +5,7 @@
       "tags": [
         "garlic",
         "chicken",
+        "potato",
         "onion",
         "pasta",
         "beef",
@@ -21,6 +22,7 @@
         "garlic",
         "chicken",
         "cauliflower",
+        "potato",
         "onion",
         "beef",
         "rice"
@@ -35,7 +37,6 @@
         "onion",
         "fish",
         "beef",
-        "rice",
         "cheese"
       ]
     },
@@ -45,6 +46,7 @@
         "mushrooms",
         "garlic",
         "chicken",
+        "potato",
         "onion",
         "corn",
         "beef",
@@ -57,11 +59,11 @@
         "mushrooms",
         "garlic",
         "chicken",
+        "potato",
         "onion",
         "pasta",
         "broccoli",
         "beef",
-        "rice",
         "cheese"
       ]
     }
